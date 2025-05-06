@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DiffGenerationConfig">
+    <option name="sourceModelValue" value="inventory-service:entityManagerFactory" />
+    <option name="targetDbValue" value="5d05be9e-efa7-48cc-8958-50d6165fbd2a__inventory_service" />
+  </component>
+</project>
