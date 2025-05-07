@@ -24,6 +24,7 @@ public class OrderServiceImpl implements IOrderService{
     public void placeOrder(OrderRequest orderRequest) {
         Order order = orderMapper.toEntity(orderRequest);
         order.setOrderNumber(UUID.randomUUID().toString());
+        order.setStatus("PENDING");
 
         // Set the order reference in each OrderLineItem
         order.getOrderLineItemsList().forEach(item -> item.setOrder(order));

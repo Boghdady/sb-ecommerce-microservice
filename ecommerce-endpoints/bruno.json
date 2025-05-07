@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "ecommerce-endpoints",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
