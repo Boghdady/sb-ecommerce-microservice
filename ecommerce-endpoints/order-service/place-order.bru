@@ -6,6 +6,23 @@ meta {
 
 post {
   url: http://localhost:8080/api/v1/orders
-  body: none
+  body: json
   auth: none
+}
+
+body:json {
+  {
+    "orderLineItemsDtoList": [
+      {
+        "skuCode": "1f1",
+        "price": 155.5,
+        "quantity": 2
+      },
+      {
+        "skuCode": "1f2",
+        "price": 120.5,
+        "quantity": 2
+      }
+    ]
+  }
 }
